@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Vstupenky do kina | Rezervace online</title>
+  </head>
+  <body>
+    <main>
+      <section class="date">
+        <label for="date-picker" class="date-label">Zvolte datum</label>
+        <div class="date-picker">
+          <span id="arrow-left" class="arrow">&#8592;</span>
+          <select
+            name="date-picker"
+            id="date-picker"
+            class="date-picker"
+          ></select>
+          <span id="arrow-right" class="arrow">&#8594;</span>
+        </div>
+        <p id="date-note">Vyberte si požadovaný čas a sedadla</p>
+      </section>
+      <section class="explanatory">
+        <div class="seats">
+          <div class="seat"></div>
+          <p>Volné</p>
+          <div class="seat selected"></div>
+          <p>Zabrané</p>
+        </div>
+      </section>
+      <section class="sessions">
+        <div class="row">
+          <div class="session" id="10">
+            <h2>10:00</h2>
+            <div class="seat" data-id="1">1</div>
+            <div class="seat" data-id="2">2</div>
+            <div class="seat" data-id="3">3</div>
+            <div class="seat" data-id="4">4</div>
+            <div class="seat" data-id="5">5</div>
+            <div class="seat" data-id="6">6</div>
+            <div class="seat" data-id="7">7</div>
+            <div class="seat" data-id="8">8</div>
+            <div class="seat" data-id="9">9</div>
+          </div>
+          <div class="session" id="12">
+            <h2>12:00</h2>
+            <div class="seat" data-id="1">1</div>
+            <div class="seat" data-id="2">2</div>
+            <div class="seat" data-id="3">3</div>
+            <div class="seat" data-id="4">4</div>
+            <div class="seat" data-id="5">5</div>
+            <div class="seat" data-id="6">6</div>
+            <div class="seat" data-id="7">7</div>
+            <div class="seat" data-id="8">8</div>
+            <div class="seat" data-id="9">9</div>
+          </div>
+          <div class="session" id="14">
+            <h2>14:00</h2>
+            <div class="seat" data-id="1">1</div>
+            <div class="seat" data-id="2">2</div>
+            <div class="seat" data-id="3">3</div>
+            <div class="seat" data-id="4">4</div>
+            <div class="seat" data-id="5">5</div>
+            <div class="seat" data-id="6">6</div>
+            <div class="seat" data-id="7">7</div>
+            <div class="seat" data-id="8">8</div>
+            <div class="seat" data-id="9">9</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="session" id="16">
+            <h2>16:00</h2>
+            <div class="seat" data-id="1">1</div>
+            <div class="seat" data-id="2">2</div>
+            <div class="seat" data-id="3">3</div>
+            <div class="seat" data-id="4">4</div>
+            <div class="seat" data-id="5">5</div>
+            <div class="seat" data-id="6">6</div>
+            <div class="seat" data-id="7">7</div>
+            <div class="seat" data-id="8">8</div>
+            <div class="seat" data-id="9">9</div>
+          </div>
+          <div class="session" id="18">
+            <h2>18:00</h2>
+            <div class="seat" data-id="1">1</div>
+            <div class="seat" data-id="2">2</div>
+            <div class="seat" data-id="3">3</div>
+            <div class="seat" data-id="4">4</div>
+            <div class="seat" data-id="5">5</div>
+            <div class="seat" data-id="6">6</div>
+            <div class="seat" data-id="7">7</div>
+            <div class="seat" data-id="8">8</div>
+            <div class="seat" data-id="9">9</div>
+          </div>
+          <div class="session" id="20">
+            <h2>20:00</h2>
+            <div class="seat" data-id="1">1</div>
+            <div class="seat" data-id="2">2</div>
+            <div class="seat" data-id="3">3</div>
+            <div class="seat" data-id="4">4</div>
+            <div class="seat" data-id="5">5</div>
+            <div class="seat" data-id="6">6</div>
+            <div class="seat" data-id="7">7</div>
+            <div class="seat" data-id="8">8</div>
+            <div class="seat" data-id="9">9</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="dist/app.js"></script>
+  </body>
+</html>
